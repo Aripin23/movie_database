@@ -1,15 +1,11 @@
-import Header from './Component/Header';
-import Main from './Component/Main';
-import Footer from './Component/Footer';
+import Home from './pages/Home';
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Home />
     </div>
   );
 }
